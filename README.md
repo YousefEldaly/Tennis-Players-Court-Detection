@@ -5,7 +5,7 @@ This is made following this tutorial [Build an AI/ML Tennis Analysis system with
 ## Key differences
 
 - **Using YOLOv11 instead of YOLOv5**: For tennis ball detection, YOLOv11 was trained on custom data, achieving higher accuracy for this specific task compared to YOLOv5.
-![YOLOv11 vs YOLOv5 Accuracy Comparison](https://docs.ultralytics.com/models/yolo11/)
+![Check Performance Comparison](https://github.com/YousefEldaly/Tennis-Players-Court-Detection/blob/main/performance-comparison.png)
 - **Resolved Issues with the original repo**: An issue was encountered and reported in the original [tennis_analysis](https://github.com/abdullahtarek/tennis_analysis/issues/5)project repository regarding an error in the training script. The issue was successfully resolved.
 
 ---
