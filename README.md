@@ -1,6 +1,6 @@
 # Tennis-Players-Court-Detection
 
-[![Watch the Video](https://github.com/YousefEldaly/Tennis-Players-Court-Detection/raw/main/path_to_thumbnail_image.png)](https://github.com/YousefEldaly/Tennis-Players-Court-Detection/blob/main/output_videos/output_video.avi)
+[![Watch the Video]](https://github.com/YousefEldaly/Tennis-Players-Court-Detection/blob/main/output_videos/output_video.gif)
 
 This repository provides a complete system for detecting players, balls, and court keypoints in tennis footage. It leverages various deep learning models for each detection task, including YOLOv8 for players, a custom-trained YOLOv11 for the tennis ball, and a fine-tuned ResNet50 for court keypoints. Missing detections are interpolated to maintain smooth tracking, and only people near the court are filtered and classified as players.
 This is made following this tutorial [Build an AI/ML Tennis Analysis system with YOLO, PyTorch, and Key Point Extraction] (https://www.youtube.com/watch?v=L23oIHZE14w&t=8993s)
